@@ -126,7 +126,11 @@ void * popCurrent(List * list) {
     }
     else if (eliminar == list->tail) {
         list->tail = eliminar->prev;
-        list->tail->prev = NULL;
+        if (list->tail != NULL) {
+            list->tail->next = NULL;
+        } else {
+            list->head = NULL;
+        }
     }
     else {
         eliminar->prev->next = eliminar->next;
