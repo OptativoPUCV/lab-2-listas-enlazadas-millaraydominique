@@ -78,3 +78,9 @@ list.c:124:5: error: suggest parentheses around assignment used as truth value [
 cc1.exe: all warnings being treated as errors
 Compilation failed
 1647438
+Sat, Mar 29, 2025 12:24:26 PM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 55/70
+12248b8
