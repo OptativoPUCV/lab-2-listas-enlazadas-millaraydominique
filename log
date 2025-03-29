@@ -67,3 +67,14 @@ Sat, Mar 29, 2025 12:08:54 PM:
  tests:  11|1
 total_score: 55/70
 e7447e6
+Sat, Mar 29, 2025 12:22:58 PM: 
+ list.c | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:124:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     else if (eliminar = list->tail) {
+     ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1647438
