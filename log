@@ -4,3 +4,13 @@ Sat, Mar 29, 2025 10:53:16 AM:
  tests:  1|5
 total_score: 10/70
 25021aa
+Sat, Mar 29, 2025 11:12:12 AM: 
+ list.c | 18 +++++++++++-------
+ 1 file changed, 11 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:44:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation failed
+ba1165b
